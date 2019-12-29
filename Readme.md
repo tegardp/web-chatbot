@@ -2,6 +2,8 @@
 
 This is chatbot app built using tensorflow made by tegardp
 
+![screenshot](assets/screenshot.PNG =400x200)
+
 ## How to install
 
 clone this repository using command below
