@@ -2,7 +2,7 @@
 
 This is chatbot app built using tensorflow made by tegardp
 
-![screenshot](assets/screenshot.PNG =400x200)
+![screenshot](assets/screenshot.PNG)
 
 ## How to install
 
