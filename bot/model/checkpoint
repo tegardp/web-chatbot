@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\BPS\\data-science\\Portfolio\\Chatbot\\bot\\model\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\BPS\\data-science\\Portfolio\\Chatbot\\bot\\model\\model.tflearn"
+model_checkpoint_path: "C:\\Users\\BPS\\project\\web-chatbot\\bot\\model\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\BPS\\project\\web-chatbot\\bot\\model\\model.tflearn"
