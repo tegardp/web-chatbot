@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chatbot BPS</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+  <center>
+    <h1>Chatbot BPS</h1>
+  </center>
+
+  <div class="box"></div>
+
+  <div class="boxed">
+    <div>
+      <div id="chatbox">
+        <p class="botText">
+          <span>Halo saya Chatbot BPS ada yang bisa dibantu?</span>
+        </p>
+      </div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Message" />
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='custom.js')}}"></script>
+</body>
+</html>

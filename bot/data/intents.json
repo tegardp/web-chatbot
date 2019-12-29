@@ -1,0 +1,36 @@
+{"intents": [
+  {"tag": "salam",
+   "patterns": ["Hi","halo","pagi", "sewa dong", "ada orang disana?", "halo", "bos","bang", "test","mau tanya dong", "permisi", "assalamualaykum", "misi"],
+   "responses": ["halo, saya Chatbot BPS ada yang bisa dibantu kak?", "halo ada yang bisa dibantu?"],
+   "context_set": ""
+  },
+  {"tag": "berpisah",
+   "patterns": ["Bye", "Sampai Ketemu nanti", "Sampai nanti","makasih","thanks"],
+   "responses": ["terimakaish telah berkunjung", "semoga harimu menyenangkan", "dah! dateng lagi ya"]
+  },
+  {"tag": "makasih",
+   "patterns": ["Makasih", "Terimakasih", "Sangat Membantu", "thanks", "trims"],
+   "responses": ["Sama-sama, ada lagi yang bisa dibantu kak?", "Senang bisa membantu, ada lagi kak?"]
+  },
+  {"tag": "jam",
+   "patterns": ["Jam Berapa Bukanya ya ?", "buka jam berapa ya?", "kapan bukanya ?",  "kalo mau kesana gimana?","kantornya jam brp?","bisa dateng langsung?" ],
+   "responses": ["Layanan PST kami buka pukul 8 Pagi s/d 4 Sore, Silahkan datang ke kantor", "Jam kerja kita jam 8 pagi sampai jam 4 sore, Silahkan datang ke kantor"]
+  },
+  {"tag": "minta data",
+   "patterns": ["boleh minta data?", "Adanya data apa saja ya?", "Data apa yang tersedia?","bisa minta data ga?", "mau minta data" ],
+   "responses": ["Kami melayani permintaan data, silahkan sebutkan data apa yang anda minta ", "Kami memiliki data Sosial dan Kependudukan, Ekonomi dan Perdagangan, Pertanian dan Pertambangan. Silahkan sebutkan data secara spesifik"]
+  },
+  {"tag": "buka hari ini",
+   "patterns": ["Hari ini buka ga?", "hari ini buka jam berapa ya?", "Buka hari ini jam?"],
+   "responses": ["Kami buka Senin-Jumat, pukul 8 Pagi s/d 4 Sore", "Jam kerja kita jam 9 pagi sampai malem setiap hari kerja"]
+  },
+  {"tag": "jumlah penduduk indonesia",
+    "patterns": ["data penduduk", "Jumlah penduduk?", "Jumlah penduduk Indonesia?", " data jumlah penduduk Indonesia", "data jumlah penduduk", "data terkait jumlah penduduk"],
+    "responses": ["untuk data jumlah penduduk Indonesia silahkan kunjungi https://papuabarat.bps.go.id/dynamictable/2018/02/06/64/proyeksi-penduduk-menurut-kabupaten-kota-2010-2020.html"]
+  },
+  {"tag": "jumlah penduduk papua barat",
+    "patterns": ["penduduk papua barat", "Jumlah penduduk papua barat ?", "penduduk papua barat ada berapa?", "data jumlah penduduk Papua Barat", "penduduk papbar", "Jumlah penduduk papbar?"],
+    "responses": ["untuk data jumlah penduduk Papua barat silahkan kunjungi https://www.bps.go.id/statictable/2014/02/18/1274/proyeksi-penduduk-menurut-provinsi-2010---2035.html"]
+   }
+]
+}
